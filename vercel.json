@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "env": {
+  },
+  "builds":[
+    {
+      "src": "pup.js",
+      "use": "@vercel/node"
+    }],
+  "routes":[
+    {
+      "src": "/(.*)",
+      "dest": "pup.js"
+    }]
+}

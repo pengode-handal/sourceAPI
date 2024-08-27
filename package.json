@@ -1,0 +1,24 @@
+{
+  "name": "padznime",
+  "version": "1.0.0",
+  "description": "Anime Streaming",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "anime"
+  ],
+  "author": "Aizu",
+  "license": "ISC",
+  "dependencies": {
+    "@sparticuz/chromium": "^127.0.0",
+    "@sparticuz/chromium-min": "^127.0.0",
+    "axios": "^1.7.5",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "puppeteer": "^23.1.1",
+    "puppeteer-core": "^23.1.1"
+  }
+}
